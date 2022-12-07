@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <include src="./views/header.html"></include>
+    
+    <main>
+        <h1>Formulario de contacto</h1>
+        <form>
+            <div class="form-group m-3">
+              <label for="exampleInputEmail1">Correo electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Introduce el email">
+            </div>
+            <div class="form-group m-3">
+              <label>Nombre</label>
+              <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="form-group m-3">
+                <label>Asunto</label>
+                <input type="text" class="form-control" placeholder="Asunto">
+            </div>
+            <div class="form-group m-3">
+                <label>Mensaje</label>
+                <input type="text" class="form-control" placeholder="Mensaje">
+            </div>
+            <div class="form-check m-3">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        
+    </main>
+
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "extends": ["stylelint-config-recommended-scss"],
+  "rules": {
+    "max-line-length": 80,
+    "color-hex-length": "short",
+    "string-no-newline": true,
+    "no-invalid-double-slash-comments": true
+  }
+}
